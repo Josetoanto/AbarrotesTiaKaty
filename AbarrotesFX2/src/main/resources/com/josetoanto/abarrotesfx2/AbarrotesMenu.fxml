@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="348.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AbarrotesMenuController">
+   <children>
+      <Button id="ventasbutton" fx:id="ventasButton" layoutX="141.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#OnVentasButtonClick" prefHeight="30.0" prefWidth="333.0" text="Ventas">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button id="inventariobutton" layoutX="140.0" layoutY="237.0" mnemonicParsing="false" onMouseClicked="#onInventarioButtonClick" prefHeight="30.0" prefWidth="334.0" text="Inventario" />
+      <Label id="tittleLabel" fx:id="tittleLabel" layoutX="90.0" layoutY="87.0" prefHeight="46.0" prefWidth="440.0" text="Bienvenido a Abarrotes Tia Katy">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="530.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#btm_Salir" text="Salir" />
+   </children>
+</AnchorPane>
